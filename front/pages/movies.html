@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIES</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/burger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <a class="logoplatform" href="../index.html">CICINEMA</a>
+
+        <label class="hamburger-menu">
+            <input type="checkbox" checked />
+        </label>
+
+        <aside class="sidebar">
+            <nav class="navContainer">
+                <a class="navi-link" href="../index.html">Home</a>
+                <a class="navi-link" href="./movies.html">Movies</a>
+                <a class="navi-link" href="#">Genders</a>
+                <a class="navi-link" href="./about.html">About Me</a>
+                <div class="input-wrapper">
+                    <input type="search" class="searchInput" placeholder="Buscador..." />
+                    <button id="searchButton" type="button" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <a class="user-link" href="#"><img class="user-img" src="../pages/user.png" alt="login"></a>
+            </nav>
+        </aside>
+
+    </header>
+
+    <main class="main-page">
+        <h2 class="title-estreno">Lista de Peliculas</h2>
+        <section class="sectionMovies">
+            <div id="moviesContainer2"></div>
+        </section>
+    </main>
+
+    <!-- <script src="../scripts/tempData.js"></script> -->
+    <script src="../scripts/movies.js"></script>
+</body>
+
+</html>
