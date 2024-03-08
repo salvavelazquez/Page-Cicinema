@@ -29,7 +29,7 @@ body {
   width: max-content;
   position: fixed; /* Cambiado a 'fixed' */
   top: var(--hamburger-margin);
-  right: 4.5em; /* Modificado a 'right' */
+  right: 5%; /* Modificado a 'right' */
   z-index: 1010;
   cursor: pointer;
 }
@@ -104,7 +104,7 @@ body {
   position: fixed; /* Añadido 'fixed' */
   top: 10px; /* Añadido 'top' */
   right: -20px; /* Añadido 'right' */
-  z-index: 1000;
+  z-index: 5;
 }
 
 .hamburger-menu:has(input:checked) + .sidebar {

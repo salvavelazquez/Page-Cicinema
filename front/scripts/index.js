@@ -48,7 +48,7 @@ const renderCards = (data) => {
             `;
 
 
-        if (i < 3 && movie.rate > 8.7) {
+        if (i < 3 && movie.rate > 8.5) {
             estrenosContainer.appendChild(newMovie.cloneNode(true));
             carouselContainer.appendChild(divCarousel.cloneNode(true));
             i++;
@@ -60,8 +60,3 @@ const renderCards = (data) => {
         divContainer.appendChild(mov);
     });
 }
-
-
-$('.carousel').carousel({
-    interval: 2000
-});
